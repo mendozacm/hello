@@ -1,4 +1,3 @@
-
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "hello/version"
@@ -19,9 +18,9 @@ Gem::Specification.new do |spec|
   if spec.respond_to?(:metadata)
     spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
-    spec.metadata["homepage_uri"] = spec.homepage
-    spec.metadata["source_code_uri"] = "https://github.com/hansenjl/weather"
-    spec.metadata["changelog_uri"] = "https://github.com/hansenjl/weather"
+    spec.metadata["homepage_uri"] = "https://github.com/'upbeat-hacker-0790'/hello"
+    spec.metadata["source_code_uri"] = "https://github.com/'upbeat-hacker-0790'/hello"
+    spec.metadata["changelog_uri"] = "https://github.com/'upbeat-hacker-0790'/hello"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
